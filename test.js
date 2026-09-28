@@ -7,6 +7,8 @@ function callFunc() {
         let d = a * b;
         if (c > d) var e  = c - d;
         else e = c + d;
+        let d = a - b;
+        let e = c * d;
 
         console.log(e);
     };
